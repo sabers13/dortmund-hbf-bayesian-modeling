@@ -1,0 +1,1 @@
+"""Applied Bayesian project package."""

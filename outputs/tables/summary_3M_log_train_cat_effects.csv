@@ -1,0 +1,5 @@
+,mean,sd,hdi_3%,hdi_97%,mcse_mean,mcse_sd,ess_bulk,ess_tail,r_hat
+train_cat_sigma,0.46,0.16,0.22,0.75,0.0,0.0,5632.5,5459.67,1.0
+train_cat_eff[HighSpeed],0.55,0.02,0.51,0.6,0.0,0.0,9428.52,6628.71,1.0
+train_cat_eff[Regional],-0.23,0.02,-0.27,-0.19,0.0,0.0,9759.29,7362.23,1.0
+train_cat_eff[S-Bahn],-0.32,0.03,-0.39,-0.26,0.0,0.0,10339.76,6584.82,1.0

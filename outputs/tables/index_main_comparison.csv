@@ -1,0 +1,7 @@
+section,story,artifact,file,purpose
+main_comparison,story1,holdout_scores,phase2/outputs/tables/story1_holdout_scores.csv,Event-level Bernoulli vs grouped Binomial comparison on held-out events
+main_comparison,story2,holdout_scores,phase2/outputs/tables/story2_holdout_scores.csv,Event-level Bernoulli vs grouped Binomial comparison on held-out events
+main_comparison,story3,holdout_scores,phase2/outputs/tables/story3_holdout_scores.csv,Event-level Bernoulli vs grouped Binomial comparison on held-out events
+main_comparison,all,holdout_summary,phase2/outputs/tables/holdout_comparison_summary.csv,Combined holdout comparison across stories
+main_comparison,all,holdout_winners,phase2/outputs/tables/holdout_winners.csv,Winner by story and metric
+main_comparison,all,holdout_report_summary,phase2/outputs/tables/holdout_report_summary.csv,Compact narrative summary for report writing

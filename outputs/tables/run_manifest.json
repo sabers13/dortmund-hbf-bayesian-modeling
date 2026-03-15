@@ -1,0 +1,63 @@
+{
+  "run_tag": "full_holdout_v1_safe",
+  "model_version": "phase2_v1",
+  "user_run_tag": "full_holdout_v1_safe",
+  "cache_tag": "phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95",
+  "draws_tag": 2000,
+  "tune_tag": 2000,
+  "chains_tag": 4,
+  "accept_tag": 0.95,
+  "fast_dev": false,
+  "cont_cols": [
+    "hour_dec",
+    "days_until_xmas"
+  ],
+  "phase2_exchangeable_group": "train_cat",
+  "phase2_exchangeability_note": "Levels of train_cat are treated as exchangeable a priori: their group effects are modeled as draws from a shared Normal distribution with a common group-level scale.",
+  "group_col_story1": "train_cat",
+  "group_col_story2": "train_cat",
+  "group_col_story3": "train_cat",
+  "group_stats_story1": {
+    "chosen_group": "train_cat",
+    "n_groups": 3,
+    "coverage": 1.0
+  },
+  "group_stats_story2": {
+    "chosen_group": "train_cat",
+    "n_groups": 3,
+    "coverage": 1.0
+  },
+  "group_stats_story3": {
+    "chosen_group": "train_cat",
+    "n_groups": 3,
+    "coverage": 1.0
+  },
+  "n_models": 8,
+  "n_expected_files": 130,
+  "n_missing_files": 0,
+  "phase": "phase2",
+  "primary_comparison": "event_bernoulli_vs_grouped_binomial",
+  "exchangeable_group": "train_cat",
+  "stories": {
+    "story1": {
+      "event_model": "1E_bern",
+      "grouped_model": "1G_binom",
+      "support_model": null
+    },
+    "story2": {
+      "event_model": "2E_delay",
+      "grouped_model": "2G_delay",
+      "support_model": "2M_log"
+    },
+    "story3": {
+      "event_model": "3E_delay",
+      "grouped_model": "3G_delay",
+      "support_model": "3M_log"
+    }
+  },
+  "holdout_strategy": {
+    "type": "whole_day_split",
+    "rule": "day_of_month % 5 == 0 used as test set"
+  },
+  "report_bundle_dir": "phase2/outputs/report_bundle"
+}

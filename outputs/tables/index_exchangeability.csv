@@ -1,0 +1,4 @@
+section,story,artifact,file,purpose
+exchangeability,all,note,phase2/outputs/tables/exchangeability_note.txt,Explicit statement of the exchangeability assumption
+exchangeability,all,summary,phase2/outputs/tables/exchangeability_summary.csv,Shared summary of train_cat group-level sigma across models
+exchangeability,all,counts,phase2/outputs/tables/train_cat_counts.csv,Observed number of events per train category

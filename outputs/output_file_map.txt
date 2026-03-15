@@ -1,0 +1,234 @@
+outputs
+├── eda
+│   ├── cancel_rate_by_train_cat.png
+│   ├── cancel_rate_by_weekday.png
+│   ├── delay_distribution_log1p.png
+│   ├── eda_all_plots.png
+│   └── top_destinations.png
+├── generate_outputs_artifacts.py
+├── loo
+│   ├── comparison_not_applicable.csv
+│   ├── loo_1E_bern.csv
+│   ├── loo_1G_binom.csv
+│   ├── loo_2E_delay.csv
+│   ├── loo_2G_delay.csv
+│   ├── loo_2M_log.csv
+│   ├── loo_3E_delay.csv
+│   ├── loo_3G_delay.csv
+│   ├── loo_3M_log.csv
+│   ├── pareto_k_1E_bern.csv
+│   ├── pareto_k_1G_binom.csv
+│   ├── pareto_k_2E_delay.csv
+│   ├── pareto_k_2G_delay.csv
+│   ├── pareto_k_2M_log.csv
+│   ├── pareto_k_3E_delay.csv
+│   ├── pareto_k_3G_delay.csv
+│   ├── pareto_k_3M_log.csv
+│   ├── pareto_summary_1E_bern.csv
+│   ├── pareto_summary_1G_binom.csv
+│   ├── pareto_summary_2E_delay.csv
+│   ├── pareto_summary_2G_delay.csv
+│   ├── pareto_summary_2M_log.csv
+│   ├── pareto_summary_3E_delay.csv
+│   ├── pareto_summary_3G_delay.csv
+│   └── pareto_summary_3M_log.csv
+├── loo.txt
+├── models
+│   ├── 1E_bern_holdout_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 1E_bern_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 1G_binom_holdout_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 1G_binom_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 2E_delay_holdout_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 2E_delay_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 2G_delay_holdout_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 2G_delay_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 2M_log_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 3E_delay_holdout_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 3E_delay_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 3G_delay_holdout_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 3G_delay_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── 3M_log_phase2_v1__full_holdout_v1_safe__full__d2000_t2000_c4_a0.95.nc
+│   ├── trace_1E_bern_beta_all.png
+│   ├── trace_1E_bern_days_until_xmas.png
+│   ├── trace_1E_bern_hour_dec.png
+│   ├── trace_1G_binom_beta_all.png
+│   ├── trace_1G_binom_days_until_xmas_z_mean.png
+│   ├── trace_1_combined.png
+│   ├── trace_2E_delay_beta_all.png
+│   ├── trace_2E_delay_days_until_xmas.png
+│   ├── trace_2E_delay_hour_dec.png
+│   ├── trace_2G_delay_beta_all.png
+│   ├── trace_2G_delay_days_until_xmas_z_mean.png
+│   ├── trace_2_combined.png
+│   ├── trace_3E_delay_beta_all.png
+│   ├── trace_3E_delay_days_until_xmas.png
+│   ├── trace_3E_delay_hour_dec.png
+│   ├── trace_3G_delay_beta_all.png
+│   ├── trace_3G_delay_days_until_xmas_z_mean.png
+│   └── trace_3_combined.png
+├── output_file_map.txt
+├── ppc
+│   ├── combined_holdout.png
+│   ├── combined_ppc.png
+│   ├── combined_prior.png
+│   ├── combined_story1.png
+│   ├── combined_story2.png
+│   ├── combined_story3.png
+│   ├── holdout_brier_comparison.png
+│   ├── holdout_log_loss_comparison.png
+│   ├── ppc_1E_bern.png
+│   ├── ppc_1G_binom.png
+│   ├── ppc_2E_delay.png
+│   ├── ppc_2G_delay.png
+│   ├── ppc_2M_log.png
+│   ├── ppc_3E_delay.png
+│   ├── ppc_3G_delay.png
+│   ├── ppc_3M_log.png
+│   ├── prior_1E_bern.png
+│   ├── prior_2E_delay.png
+│   ├── prior_3E_delay.png
+│   ├── story1_calibration_1E_bern.png
+│   ├── story1_calibration_1G_binom.png
+│   ├── story1_obs_vs_refprob_1E_bern.png
+│   ├── story1_obs_vs_refprob_1G_binom.png
+│   ├── story1_train_cat_effects_1E_bern.png
+│   ├── story1_train_cat_effects_1G_binom.png
+│   ├── story1_train_cat_probs_1E_bern.png
+│   ├── story1_train_cat_probs_1G_binom.png
+│   ├── story2_calibration_2E_delay.png
+│   ├── story2_calibration_2G_delay.png
+│   ├── story2_obs_vs_refprob_2E_delay.png
+│   ├── story2_obs_vs_refprob_2G_delay.png
+│   ├── story2_train_cat_effects_2E_delay.png
+│   ├── story2_train_cat_effects_2G_delay.png
+│   ├── story2_train_cat_probs_2E_delay.png
+│   ├── story2_train_cat_probs_2G_delay.png
+│   ├── story3_calibration_3E_delay.png
+│   ├── story3_calibration_3G_delay.png
+│   ├── story3_obs_vs_refprob_3E_delay.png
+│   ├── story3_obs_vs_refprob_3G_delay.png
+│   ├── story3_train_cat_effects_3E_delay.png
+│   ├── story3_train_cat_effects_3G_delay.png
+│   ├── story3_train_cat_probs_3E_delay.png
+│   └── story3_train_cat_probs_3G_delay.png
+├── report_bundle
+│   ├── RUN_SUMMARY.md
+│   ├── exchangeability_summary.csv
+│   ├── holdout_brier_comparison.png
+│   ├── holdout_comparison_summary.csv
+│   ├── holdout_log_loss_comparison.png
+│   ├── holdout_report_summary.csv
+│   ├── holdout_winners.csv
+│   ├── story1
+│   │   ├── merged_story1.png
+│   │   ├── story1_calibration_1E_bern.csv
+│   │   ├── story1_calibration_1E_bern.png
+│   │   ├── story1_calibration_1G_binom.csv
+│   │   ├── story1_calibration_1G_binom.png
+│   │   ├── story1_holdout_scores.csv
+│   │   ├── story1_train_cat_effects_1E_bern.csv
+│   │   ├── story1_train_cat_effects_1E_bern.png
+│   │   ├── story1_train_cat_effects_1G_binom.csv
+│   │   ├── story1_train_cat_effects_1G_binom.png
+│   │   ├── story1_train_cat_probs_1E_bern.csv
+│   │   ├── story1_train_cat_probs_1E_bern.png
+│   │   ├── story1_train_cat_probs_1G_binom.csv
+│   │   └── story1_train_cat_probs_1G_binom.png
+│   ├── story2
+│   │   ├── merged_story2.png
+│   │   ├── story2_calibration_2E_delay.csv
+│   │   ├── story2_calibration_2E_delay.png
+│   │   ├── story2_calibration_2G_delay.csv
+│   │   ├── story2_calibration_2G_delay.png
+│   │   ├── story2_holdout_scores.csv
+│   │   ├── story2_train_cat_effects_2E_delay.csv
+│   │   ├── story2_train_cat_effects_2E_delay.png
+│   │   ├── story2_train_cat_effects_2G_delay.csv
+│   │   ├── story2_train_cat_effects_2G_delay.png
+│   │   ├── story2_train_cat_probs_2E_delay.csv
+│   │   ├── story2_train_cat_probs_2E_delay.png
+│   │   ├── story2_train_cat_probs_2G_delay.csv
+│   │   └── story2_train_cat_probs_2G_delay.png
+│   └── story3
+│       ├── merged_story3.png
+│       ├── story3_calibration_3E_delay.csv
+│       ├── story3_calibration_3E_delay.png
+│       ├── story3_calibration_3G_delay.csv
+│       ├── story3_calibration_3G_delay.png
+│       ├── story3_holdout_scores.csv
+│       ├── story3_train_cat_effects_3E_delay.csv
+│       ├── story3_train_cat_effects_3E_delay.png
+│       ├── story3_train_cat_effects_3G_delay.csv
+│       ├── story3_train_cat_effects_3G_delay.png
+│       ├── story3_train_cat_probs_3E_delay.csv
+│       ├── story3_train_cat_probs_3E_delay.png
+│       ├── story3_train_cat_probs_3G_delay.csv
+│       └── story3_train_cat_probs_3G_delay.png
+└── tables
+    ├── RUN_SUMMARY.md
+    ├── divergences_summary.csv
+    ├── eda_summary.csv
+    ├── exchangeability_note.txt
+    ├── exchangeability_summary.csv
+    ├── grouped_row_counts.csv
+    ├── holdout_comparison_summary.csv
+    ├── holdout_report_summary.csv
+    ├── holdout_winners.csv
+    ├── index_diagnostics.csv
+    ├── index_exchangeability.csv
+    ├── index_main_comparison.csv
+    ├── missing_outputs.csv
+    ├── run_manifest.json
+    ├── story1_calibration_1E_bern.csv
+    ├── story1_calibration_1G_binom.csv
+    ├── story1_grouped_binomial_data.csv
+    ├── story1_holdout_scores.csv
+    ├── story1_train_cat_effects_1E_bern.csv
+    ├── story1_train_cat_effects_1G_binom.csv
+    ├── story1_train_cat_observed_rates.csv
+    ├── story1_train_cat_probs_1E_bern.csv
+    ├── story1_train_cat_probs_1G_binom.csv
+    ├── story1_train_cat_sigma_1E_bern.csv
+    ├── story1_train_cat_sigma_1G_binom.csv
+    ├── story2_calibration_2E_delay.csv
+    ├── story2_calibration_2G_delay.csv
+    ├── story2_grouped_binomial_data.csv
+    ├── story2_holdout_scores.csv
+    ├── story2_train_cat_effects_2E_delay.csv
+    ├── story2_train_cat_effects_2G_delay.csv
+    ├── story2_train_cat_observed_rates.csv
+    ├── story2_train_cat_probs_2E_delay.csv
+    ├── story2_train_cat_probs_2G_delay.csv
+    ├── story2_train_cat_sigma_2E_delay.csv
+    ├── story2_train_cat_sigma_2G_delay.csv
+    ├── story3_calibration_3E_delay.csv
+    ├── story3_calibration_3G_delay.csv
+    ├── story3_grouped_binomial_data.csv
+    ├── story3_holdout_scores.csv
+    ├── story3_train_cat_effects_3E_delay.csv
+    ├── story3_train_cat_effects_3G_delay.csv
+    ├── story3_train_cat_observed_rates.csv
+    ├── story3_train_cat_probs_3E_delay.csv
+    ├── story3_train_cat_probs_3G_delay.csv
+    ├── story3_train_cat_sigma_3E_delay.csv
+    ├── story3_train_cat_sigma_3G_delay.csv
+    ├── story_metadata.csv
+    ├── summary_1E_bern.csv
+    ├── summary_1E_bern_train_cat_effects.csv
+    ├── summary_1G_binom.csv
+    ├── summary_1G_binom_train_cat_effects.csv
+    ├── summary_2E_delay.csv
+    ├── summary_2E_delay_train_cat_effects.csv
+    ├── summary_2G_delay.csv
+    ├── summary_2G_delay_train_cat_effects.csv
+    ├── summary_2M_log.csv
+    ├── summary_2M_log_train_cat_effects.csv
+    ├── summary_3E_delay.csv
+    ├── summary_3E_delay_train_cat_effects.csv
+    ├── summary_3G_delay.csv
+    ├── summary_3G_delay_train_cat_effects.csv
+    ├── summary_3M_log.csv
+    ├── summary_3M_log_train_cat_effects.csv
+    └── train_cat_counts.csv
+
+10 directories, 222 files

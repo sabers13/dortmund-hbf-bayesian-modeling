@@ -1,0 +1,1 @@
+Levels of train_cat are treated as exchangeable a priori: their group effects are modeled as draws from a shared Normal distribution with a common group-level scale.

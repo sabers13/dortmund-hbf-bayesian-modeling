@@ -1,0 +1,4 @@
+comparison,status,reason
+story1,not_applicable,Bernoulli and Binomial use different observation units; compared instead on common held-out events.
+story2,not_applicable,Bernoulli and Binomial use different observation units; compared instead on common held-out events.
+story3,not_applicable,Bernoulli and Binomial use different observation units; compared instead on common held-out events.

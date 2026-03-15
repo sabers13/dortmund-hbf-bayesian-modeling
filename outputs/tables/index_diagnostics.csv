@@ -1,0 +1,4 @@
+section,story,artifact,file,purpose
+diagnostics,all,divergences_summary,phase2/outputs/tables/divergences_summary.csv,Sampling divergence summary across models
+diagnostics,all,run_manifest,phase2/outputs/tables/run_manifest.json,Run configuration and metadata
+diagnostics,all,missing_outputs,phase2/outputs/tables/missing_outputs.csv,Audit of expected outputs

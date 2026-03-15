@@ -1,0 +1,4 @@
+story,event_rows,grouped_rows,outcome,event_model,grouped_model,support_model
+story1,27201,431,is_canceled,1E_bern,1G_binom,
+story2,14759,168,is_delayed,2E_delay,2G_delay,2M_log
+story3,14745,168,is_delayed,3E_delay,3G_delay,3M_log

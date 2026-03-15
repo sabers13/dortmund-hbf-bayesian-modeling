@@ -1,0 +1,128 @@
+===== comparison_not_applicable.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/comparison_not_applicable.csv
+
+comparison,status,reason
+story1,not_applicable,Bernoulli and Binomial use different observation units; compared instead on common held-out events.
+story2,not_applicable,Bernoulli and Binomial use different observation units; compared instead on common held-out events.
+story3,not_applicable,Bernoulli and Binomial use different observation units; compared instead on common held-out events.
+
+===== loo_1E_bern.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/loo_1E_bern.csv
+
+elpd_loo,se,p_loo,looic,scale
+-8085.359828106396,107.01349515695813,20.308530306454486,16170.719656212792,log
+
+===== loo_1G_binom.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/loo_1G_binom.csv
+
+elpd_loo,se,p_loo,looic,scale
+-983.4126666140704,30.371342730683192,32.07000422739395,1966.8253332281408,log
+
+===== loo_2E_delay.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/loo_2E_delay.csv
+
+elpd_loo,se,p_loo,looic,scale
+-6378.077593003379,73.07567484137698,20.25740365512047,12756.155186006758,log
+
+===== loo_2G_delay.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/loo_2G_delay.csv
+
+elpd_loo,se,p_loo,looic,scale
+-485.09947240058415,13.962527885771213,25.57957866229532,970.1989448011683,log
+
+===== loo_2M_log.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/loo_2M_log.csv
+
+elpd_loo,se,p_loo,looic,scale
+-17753.318609798665,68.2989473836487,22.948103818966047,35506.63721959733,log
+
+===== loo_3E_delay.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/loo_3E_delay.csv
+
+elpd_loo,se,p_loo,looic,scale
+-8032.926746557175,58.703263510248696,20.712843653283926,16065.85349311435,log
+
+===== loo_3G_delay.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/loo_3G_delay.csv
+
+elpd_loo,se,p_loo,looic,scale
+-547.7567871156521,18.468377735773707,31.73580826309251,1095.5135742313041,log
+
+===== loo_3M_log.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/loo_3M_log.csv
+
+elpd_loo,se,p_loo,looic,scale
+-15835.26926122546,62.244194855999226,20.365931505339177,31670.53852245092,log
+
+===== pareto_summary_1E_bern.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/pareto_summary_1E_bern.csv
+
+,0
+n_obs,27201.0
+pct_k_gt_0.7,0.0
+pct_k_gt_1.0,0.0
+max_k,0.1404429420226852
+
+===== pareto_summary_1G_binom.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/pareto_summary_1G_binom.csv
+
+,0
+n_obs,431.0
+pct_k_gt_0.7,0.0
+pct_k_gt_1.0,0.0
+max_k,0.5095912030074318
+
+===== pareto_summary_2E_delay.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/pareto_summary_2E_delay.csv
+
+,0
+n_obs,14759.0
+pct_k_gt_0.7,0.0
+pct_k_gt_1.0,0.0
+max_k,0.17392129300107004
+
+===== pareto_summary_2G_delay.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/pareto_summary_2G_delay.csv
+
+,0
+n_obs,168.0
+pct_k_gt_0.7,0.0
+pct_k_gt_1.0,0.0
+max_k,0.568707112202658
+
+===== pareto_summary_2M_log.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/pareto_summary_2M_log.csv
+
+,0
+n_obs,12300.0
+pct_k_gt_0.7,0.0
+pct_k_gt_1.0,0.0
+max_k,0.13737950260632828
+
+===== pareto_summary_3E_delay.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/pareto_summary_3E_delay.csv
+
+,0
+n_obs,14745.0
+pct_k_gt_0.7,0.0
+pct_k_gt_1.0,0.0
+max_k,0.15408026825738066
+
+===== pareto_summary_3G_delay.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/pareto_summary_3G_delay.csv
+
+,0
+n_obs,168.0
+pct_k_gt_0.7,0.0
+pct_k_gt_1.0,0.0
+max_k,0.5880351376975986
+
+===== pareto_summary_3M_log.csv =====
+[Path] /home/saber/uni/bayesian/project/phase2/outputs/loo/pareto_summary_3M_log.csv
+
+,0
+n_obs,10737.0
+pct_k_gt_0.7,0.0
+pct_k_gt_1.0,0.0
+max_k,0.1526954424860645
+

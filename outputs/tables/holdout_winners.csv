@@ -1,0 +1,4 @@
+story,winner_log_loss,winner_log_loss_value,winner_brier,winner_brier_value
+story1,1E_bern,0.3185673503113992,1E_bern,0.0881859328369745
+story2,2E_delay,0.4701538119010831,2E_delay,0.1481490646864026
+story3,3E_delay,0.5749370005375212,3E_delay,0.1951540784600723
